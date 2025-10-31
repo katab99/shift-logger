@@ -1,0 +1,13 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Container from "../components/Container.astro";
+// import LogForm from "../components/LogForm.astro";
+import { LogForm } from "../components/LogForm";
+---
+
+<Layout>
+	<Container>
+		<h1>New Log</h1>
+		<LogForm client:load />
+	</Container>
+</Layout>

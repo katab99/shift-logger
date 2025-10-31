@@ -1,0 +1,22 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.astro";
+---
+
+<Layout>
+	<ul class="pages">
+		<li><a href="/newLog">new shift</a></li>
+		<li><a href="/allLog">all logs</a></li>
+		<li><a href="/stats">stats</a></li>
+	</ul>
+</Layout>
+
+<style>
+	.pages {
+		list-style: none;
+
+		a {
+			text-decoration: none;
+		}
+	}
+</style>

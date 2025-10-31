@@ -1,0 +1,20 @@
+---
+import LogInput from "./LogInput.astro";
+---
+
+<form>
+	<LogInput id="date" type="date" title="Date" />
+	<LogInput id="start-time" type="time" title="Start Time" />
+	<LogInput id="end-time" type="time" title="End Time" />
+	<LogInput id="order-number" type="number" title="Number of Orders" />
+	<LogInput id="earnings" type="number" title="Earnings (DKK)" />
+	<LogInput id="bonus" type="number" title="Bonus (DKK)" />
+	<LogInput id="distance" type="number" title="Distance (km)" />
+</form>
+
+<style>
+	form {
+		display: flex;
+		flex-direction: column;
+	}
+</style>
