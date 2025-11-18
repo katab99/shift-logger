@@ -58,3 +58,5 @@ nunit-*.xml
 
 MyRequests.http
 *.db
+# appsettings.Development.json
+# appsettings.json
